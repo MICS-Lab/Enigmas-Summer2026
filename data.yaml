@@ -1,0 +1,12 @@
+enigmas:
+  - answer: 8100
+    description: Echauffement Geometrique
+  - answer: 99
+    description: 100 nains vs 1 ogre
+  - answer: 75
+    description: Chasse a l'angle
+  - answer: 15
+    description: Scores de rugby
+  - answer: Bob
+    description: Strategie optimale
+
