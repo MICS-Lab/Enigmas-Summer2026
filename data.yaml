@@ -9,4 +9,9 @@ enigmas:
     description: Scores de rugby
   - answer: Bob
     description: Strategie optimale
-
+  - answer: 1849
+    description: Code parfait
+  - answer: 157
+    description: La fourmie paresseuse
+  - answer: 25
+    description: Factorielle
