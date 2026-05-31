@@ -98,3 +98,63 @@ function checkPassword4() {
 
 checkPassword4();
 
+
+function checkPassword5() {
+  var password = document.getElementById("password5").value;
+  var sha_password = SHA256(password.replace(/ /g, ''));
+  if (
+    sha_password ==
+    "1e7f898d348376614dae4b5ffb06d84970a7824dfe15b1263ab0ec5c7e07f810"
+  ) {
+    document.getElementById("enigma5-check").style = "display: block";
+    document.getElementById("enigma5-no-check").style = "display: none";
+  } else {
+    document.getElementById("enigma5-no-check").style = "display: block";
+    document.getElementById("enigma5-check").style = "display: none";
+    document.getElementById("password5").value = "";
+  }
+  final_code();
+}
+
+checkPassword5();
+
+
+function checkPassword6() {
+  var password = document.getElementById("password6").value;
+  var sha_password = SHA256(password.replace(/ /g, ''));
+  if (
+    sha_password ==
+    "c75de23d89df36ba921287616ee8edb4c986e328a78e033e57c1e5e2b59c838e"
+  ) {
+    document.getElementById("enigma6-check").style = "display: block";
+    document.getElementById("enigma6-no-check").style = "display: none";
+  } else {
+    document.getElementById("enigma6-no-check").style = "display: block";
+    document.getElementById("enigma6-check").style = "display: none";
+    document.getElementById("password6").value = "";
+  }
+  final_code();
+}
+
+checkPassword6();
+
+
+function checkPassword7() {
+  var password = document.getElementById("password7").value;
+  var sha_password = SHA256(password.replace(/ /g, ''));
+  if (
+    sha_password ==
+    "b7a56873cd771f2c446d369b649430b65a756ba278ff97ec81bb6f55b2e73569"
+  ) {
+    document.getElementById("enigma7-check").style = "display: block";
+    document.getElementById("enigma7-no-check").style = "display: none";
+  } else {
+    document.getElementById("enigma7-no-check").style = "display: block";
+    document.getElementById("enigma7-check").style = "display: none";
+    document.getElementById("password7").value = "";
+  }
+  final_code();
+}
+
+checkPassword7();
+
